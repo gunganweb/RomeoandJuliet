@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Romeo and Juliet Hip Hop Performance">
+    <meta name="keywords" content="Hip Hop, Music, Dance, Teenagers Performance, Love, Shakespeare, Skating">
+    <meta name="author" content="Olena Matsevych">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Romeo and Juliet Hip Hop Performance</title>
+    <link rel="stylesheet" href="css/randj.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Navigation Menu -->
+    <nav>
+        <a href="index.html" id="brand">
+            <img id="xlogo" src="images/logo.svg" alt="Logo of Romeo and Juliet">
+        </a>
+        <a href="javascript:void(0);" id="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="ourstory.html">Our Story</a>
+            <a href="buytickets.html">Buy Tickets</a>
+            <a href="venue.html">Venue</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </nav>
+
+
+    <!--Content -->
+
+    <!--Buy Tickets-->
+    <div class="wspace">
+        <div class="lp">
+            <h2>Buy Tickets</h2>
+            <p>Here you can book your tickets for the upcoming performances.</p>
+        </div>
+        <div class="wspace">
+            <!--First date-->
+            <div class="resptable">
+                <div class="boldtickets"> 22 July 2021</div>
+                <div class="boldtickets">15.00pm</div>
+
+                <div class="even-h">price per ticket &euro; <b>15</b></div>
+                <div class="even-h">
+                    quantity
+                    <input class="rp" type="number" value="1" />
+                </div>
+                <div class="even-h">
+                    subtotal
+                    <input class="rp" type="text" value="15" />
+                </div>
+                <div class="sh"><button class="redbutton" type="submit">Add&nbsp;Tickets</button></div>
+            </div>
+            <!-- Second date-->
+            <div class="resptable">
+                <div class="boldtickets"> 15 August 2021</div>
+                <div class="boldtickets">15.00pm</div>
+                <div class="even-h">price per ticket &euro; <b>15</b></div>
+                <div class="even-h">quantity
+                    <input class="rp" type="number" value="2" />
+                </div>
+                <div class="even-h">
+                    subtotal
+                    <input class="rp" type="text" value="30" />
+                </div>
+                <div class="sh"><button class="redbutton" type="submit">Add&nbsp;Tickets</button></div>
+            </div>
+            <!--Third date-->
+            <div class="resptable">
+                <div class="boldtickets"> 25 August 2021</div>
+                <div class="boldtickets">15.00pm</div>
+
+                <div class="even-h">price per ticket &euro; <b>15</b></div>
+                <div class="even-h">quantity
+                    <input class="rp" type="number" value="0" />
+                </div>
+                <div class="even-h">subtotal
+                    <input class="rp" type="text" value="0" />
+                </div>
+                <div class="sh"><button class="redbutton" type="submit">Add&nbsp;Tickets</button></div>
+            </div>
+            <div class="resptable">
+                <div class="hidemobile"></div>
+                <div class="hidemobile"></div>
+                <div class="hidemobile"> </div>
+                <div class="hidemobile"></div>
+                <div class="even-h">
+                    total
+                    <input class="rp" type="text" value="45" />
+                </div>
+                <div class="sh">
+                    <a href="bought.html" class="blackbutton">Buy&nbsp;Tickets</a></div>
+            </div>
+        </div>
+        <div class="cont">
+            <div><img class="threepics" src="images/quote1.svg" alt="Quote about the show: A Shakespearean performance that feels as up-to-date as real life..."></div>
+            <div><img class="threepics" src="images/quote2.svg" alt="Quote about the show: The perfect meld between two different eras..."></div>
+            <div><img class="threepics" src="images/quote3.svg" alt="Quote about the show: Unforgettable cast of talent ..."></div>
+        </div>
+    </div>
+
+    <footer>
+        <!--Social links-->
+        <div class="social">
+            <a href="https://www.Twitter.com/"><img src="images/twitter.png" alt="twitter site"></a>
+            <a href="https://www.Facebook.com"><img src="images/facebook.png" alt="facebook site"></a>
+            <a href="https://www.Istagram.com"><img src="images/instagram.png" alt="instagram site"></a>
+            <a href="https://www.Youtube.com"><img src="images/youtube.png" alt="youtube site"></a>
+        </div>
+        <!-- Copyrights-->
+        <p class="copyright">&copy; 2020 Copyright
+        </p>
+
+    </footer>
+    <!--Script Menu-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            x.className = x.className == '' ? 'expanded' : '';
+        }
+    </script>
+</body>
+
+</html>
