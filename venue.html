@@ -103,10 +103,14 @@
 
     </footer>
     <!--Script Menu-->
-    <script>
+   <script>
         function myFunction() {
             var x = document.getElementById("menu");
-            x.className = x.className == '' ? 'expanded' : '';
+            if (x.className == '') {
+                x.className = 'expanded';
+            } else {
+                x.className = '';
+            }
         }
     </script>
 </body>
