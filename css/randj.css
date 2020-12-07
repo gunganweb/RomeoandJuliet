@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Blinker', sans-serif;
+    font-size: 1em;
+    background: #ffffff;
+    line-height: 150%;
+}
+
+h2 {
+    color: #ce2029;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+nav {
+    background: #000000;
+    height: 5em;
+    position: relative;
+}
+
+#brand {
+    margin: 1em;
+    display: inline-block;
+    width: 180px;
+    float: left;
+    line-height: 3em;
+}
+
+#menu {
+    line-height: 5em;
+    float: right;
+    padding-right: 2em;
+}
+
+#menu a {
+    padding-right: 0.5em;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+#menu a:hover {
+    color: #ce2029;
+}
+
+#icon {
+    display: none;
+    font-size: 1.8em;
+    color: #ffffff;
+    float: right;
+    line-height: 2.8em;
+    margin-right: 1em;
+}
+
+header {
+    padding-top: 4em;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-top: 20px;
+}
+
+.buybutton a:hover {
+    color: #000000;
+}
+
+.redbutton {
+    background-color: #ce2029;
+    font-family: 'Blinker', sans-serif;
+    border: none;
+    color: #ffffff;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.blackbutton {
+    background-color: #000000;
+    font-family: 'Blinker', sans-serif;
+    border: none;
+    color: #ffffff;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.buybutton {
+    padding-top: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #f06524;
+    height: 4.8em;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5em;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-right: 0.6em;
+    padding-bottom: 0.5em;
+    line-height: 1em;
+}
+
+
+/*Venue*/
+
+.cont {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.stay_left {
+    width: 500px;
+    padding: 1em;
+}
+
+#message {
+    padding: 0.5em;
+    font-family: 'Blinker', sans-serif;
+}
+
+.threepics {
+    width: 300px;
+    padding: 1em;
+}
+
+.picsourst {
+    height: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.sm {
+    width: 250px;
+    height: 100%;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 71%;
+    padding-top: 1em;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    padding-top: 2%;
+    padding-right: 1%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: none;
+}
+
+address {
+    display: block;
+    font-style: normal;
+    padding-top: 1em;
+}
+
+
+/* Contactus*/
+
+.ormargin {
+    padding-top: 7px;
+}
+
+.wspace {
+    padding: 1em;
+}
+
+
+/*Buy tickets*/
+
+.resptable {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.resptable div {
+    width: 15%;
+    line-height: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+input {
+    line-height: 140%;
+}
+
+.resptable input {
+    width: 3em;
+    margin-top: 0.2em;
+    height: 1.5em;
+}
+
+.rp {
+    padding-left: 1em;
+}
+
+.lp {
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+#googleMap {
+    padding-top: 1em;
+}
+
+.boldtickets {
+    font-weight: bold;
+    padding-top: 1em;
+    font-size: 18px;
+}
+
+.sh {
+    padding-top: 0.5em;
+}
+
+.even-h {
+    padding-top: 1em;
+}
+
+#totalright {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .resptable div {
+        width: 100%;
+        padding-top: 0.5em;
+        padding-bottom: 0.1em;
+    }
+    .redbutton {
+        border-bottom: #ce2029 1px solid;
+    }
+    .hidemobile {
+        display: none;
+    }
+    .resptable div.sh {
+        padding-bottom: 2em;
+        padding-top: 1.2em;
+        font-size: 18px;
+        border-bottom: 1px solid black;
+    }
+    .wspace {
+        padding-bottom: 0em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 2em;
+    }
+    #icon {
+        display: block;
+    }
+    #menu {
+        display: none;
+        padding-right: 0;
+    }
+    #menu.expanded {
+        display: block;
+        width: 100%;
+        background: #ce2029;
+        margin-bottom: 3em;
+    }
+    #menu.expanded a {
+        display: block;
+        width: 100%;
+        text-align: right;
+        line-height: 2.2em;
+        border-bottom: 1px solid white;
+        padding-right: 1.5em;
+    }
+    #menu.expanded a:hover {
+        color: #000000;
+    }
+}
