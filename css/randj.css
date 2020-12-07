@@ -265,7 +265,7 @@ input {
     float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .resptable div {
         width: 100%;
         padding-top: 0.5em;
