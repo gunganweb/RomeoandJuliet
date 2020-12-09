@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Romeo and Juliet Hip Hop Performance">
+    <meta name="keywords" content="Hip Hop, Music, Dance, Teenagers Performance, Love, Shakespeare, Skating">
+    <meta name="author" content="Olena Matsevych">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Romeo and Juliet Hip Hop Performance</title>
+    <link rel="stylesheet" href="css/randj.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Navigation Menu -->
+    <nav>
+        <a href="index.html" id="brand">
+            <img id="xlogo" src="images/logo.svg" alt="Logo of Romeo and Juliet">
+        </a>
+        <a href="javascript:void(0);" id="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="ourstory.html">Our Story</a>
+            <a href="buytickets.html">Buy Tickets</a>
+            <a href="venue.html">Venue</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </nav>
+
+
+    <!--Content -->
+    <div class="cont">
+        <!--Contact Form-->
+        <div>
+            <h2>Contact us:</h2>
+
+            <form method="post" action="/action_page.php" autocomplete="on">
+                <!--Text Box-->
+
+                <div class="ormargin">
+                    <label for="name" class="namef">Your Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="enter your name" size="35" maxlength="30" required>
+                </div>
+                <!--Email -->
+                <div class="ormargin">
+                    <label for="email" class="emailf">Email:</label><br>
+                    <input type="email" name="email" id="email" size="35" placeholder="your@email.ie" maxlength="30" required>
+                </div>
+                <!-- Message-->
+                <div class="ormargin">
+                    <label for="message" class="message">Message:</label><br>
+                    <textarea name="message" id="message" cols="70" rows="15">Write your message here</textarea>
+                </div>
+                <!--Submit Button  is replaced with link button to go to a next webpage-->
+                <div class="ormargin">
+                    <!-- <input class="redbutton" type="submit" value="Send Form"> -->
+                    <a href="sent.html" class="redbutton">Send Form</a>
+                    <input class="redbutton" type="reset" value="Clear Form">
+                </div>
+            </form>
+        </div>
+        <div class="stay_left">
+
+            <div><img class="picsourst" src="images/hello.svg" alt="Hello Speck Bubble with a Loveheart"></div>
+            <div id="address">
+                <h2>Office Address:</h2>
+                <address>
+                    Shakespeare Steet,<br>
+                    Dublin,<br>
+                    Co. Dublin<br>
+                    tel. 01234567
+                </address>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont">
+
+        <div><img class="threepics" src="images/Shakespear.svg" alt="Shakespear funny picture"></div>
+
+        <div><img class="threepics" src="images/value.svg" alt="Shakespear's Quote:”Don't waste your love on somebody, who doesn't value it.”"></div>
+
+        <div><img class="threepics" src="images/tryagain.svg" alt="Picture of a broken heart"></div>
+
+    </div>
+
+    <footer>
+        <!--Social links-->
+        <div class="social">
+            <a href="https://www.Twitter.com/"><img src="images/twitter.png" alt="twitter site"></a>
+            <a href="https://www.Facebook.com"><img src="images/facebook.png" alt="facebook site"></a>
+            <a href="https://www.Istagram.com"><img src="images/instagram.png" alt="instagram site"></a>
+            <a href="https://www.Youtube.com"><img src="images/youtube.png" alt="youtube site"></a>
+        </div>
+
+        <!-- Copyrights-->
+        <p class="copyright">&copy; 2020 Copyright
+        </p>
+
+    </footer>
+    <!--Script Menu-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.className == '') {
+                x.className = 'expanded';
+            } else {
+                x.className = '';
+            }
+        }
+    </script>
+</body>
+
+</html>
